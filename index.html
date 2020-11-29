@@ -1,0 +1,76 @@
+<!-- PortFolio ItsManueh -->
+<html>
+        <meta charset="utf-8">
+        <meta name="description" content="ItsManueh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Info ItsManueh</title>
+
+        <link rel="icon" href="src/img/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="src/css/style.css">
+        
+        <script src="src/fontawesome/9f19093a36.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="centered">
+            <h3><img src="src/img/logomanu.png" height="200"></h3>
+            <h3>Manuel Sempere Pinzón</h3>
+            <p id="scroller"></p>
+            <div id="weblinks">
+                    <div class="weblink">
+                        <a style="text-decoration:none;" href="https://www.instagram.com/itsmanueh/">
+                            <img src="src/img/insta.png"
+                                height="44px" width="44px">
+                            <p>Instagram</p>
+                        </a>
+                    </div>
+
+                    <div class="weblink">
+                        <a style="text-decoration:none;" href="https://twitter.com/itsmanueh_">
+                            <img src="src/img/twitter.png"
+                                height="44px" width="44px">
+                            <p>Twitter</p>
+                        </a>
+                    </div>
+
+                    <div class="weblink">
+                        <a style="text-decoration:none;" href="https://itsmanueh.github.io/portfoliocv/index.html">
+                            <img src="src/img/portfolio.png" height="44px" width="44px">
+                            <p>Info PortFolio</p>
+                        </a>
+                    </div>
+
+                    <div class="weblink">
+                        <a style="text-decoration:none;" href="https://www.twitch.tv/ItsManueh_">
+                            <img src="src/img/twitch.png" height="44px" width="44px">
+                            <p>Twitch</p>
+                        </a>
+                    </div>
+
+                    <div class="weblink">
+                        <a style="text-decoration:none;" href="https://discord.bio/p/itsmanueh">
+                            <img src="src/img/discord.png" height="44px" width="44px">
+                            <p>Info Discord</p>
+                        </a>
+                    </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+<script src="src/npm/typeit.min.js"></script>
+<script>
+    var totalStrings = ["Computer technician", "IT" , "Photo and video editor", "PreWeb Designer - Developer", "Freelance","Programmer & Dev on FiveM (GTAV Roleplay)"];
+    var typeIt = new TypeIt("#scroller", { speed: 75, loop: true, waitUntilVisible: true });
+
+    totalStrings.forEach(function (str) {
+        typeIt.type(str);
+        typeIt.pause(1300);
+        typeIt.delete(str.length);
+    })
+
+    typeIt.go();
+</script>
