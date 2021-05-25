@@ -1,76 +1,55 @@
-<!-- PortFolio ItsManueh -->
-<html>
-        <meta charset="utf-8">
-        <meta name="description" content="ItsManueh">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="es-ES">
 
-        <title>Info ItsManueh</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info ItsManueh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="icon" href="src/img/favicon.png" type="image/x-icon" />
+</head>
 
-        <link rel="icon" href="src/img/favicon.png">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="src/css/style.css">
-        
-        <script src="src/fontawesome/9f19093a36.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="centered">
-            <h3><img src="src/img/logomanu.png" height="200"></h3>
-            <h3>Manuel Sempere Pinzón</h3>
-            <p id="scroller"></p>
-            <div id="weblinks">
-                    <div class="weblink">
-                        <a style="text-decoration:none;" href="https://www.instagram.com/itsmanueh/">
-                            <img src="src/img/insta.png"
-                                height="44px" width="44px">
-                            <p>Instagram</p>
-                        </a>
-                    </div>
+<body>
+    <section class="animated-background">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
 
-                    <div class="weblink">
-                        <a style="text-decoration:none;" href="https://twitter.com/itsmanueh_">
-                            <img src="src/img/twitter.png"
-                                height="44px" width="44px">
-                            <p>Twitter</p>
-                        </a>
-                    </div>
+    <a id="profilePicture">
+        <img src="src/img/fotocara.jpg" alt="Profile Picture">
+    </a>
 
-                    <div class="weblink">
-                        <a style="text-decoration:none;" href="https://itsmanueh.github.io/portfolio/404.html">
-                            <img src="src/img/portfolio.png" height="44px" width="44px">
-                            <p>Info PortFolio</p>
-                        </a>
-                    </div>
+    <div id="userName">
+        Manuel Sempere Pinzón
+    </div>
 
-                    <div class="weblink">
-                        <a style="text-decoration:none;" href="https://www.twitch.tv/ItsManueh_">
-                            <img src="src/img/twitch.png" height="44px" width="44px">
-                            <p>Twitch</p>
-                        </a>
-                    </div>
+    <div id="userName">
+        @itsmanueh
+    </div>
 
-                    <div class="weblink">
-                        <a style="text-decoration:none;" href="https://discord.bio/p/itsmanueh">
-                            <img src="src/img/discord.png" height="44px" width="44px">
-                            <p>Info Discord</p>
-                        </a>
-                    </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+    <div id="links">
+        <a class="link" href="https://www.instagram.com/itsmanueh/" target="_blank"><i
+                class="fab fa-instagram">&nbsp;</i>Instagram</a>
+        <a class="link" href="https://twitter.com/itsmanueh_" target="_blank"><i
+                class="fab fa-twitter">&nbsp;</i>Twitter</a>
+        <a class="link" href="https://open.spotify.com/user/facinglife?si=898dff06ed3e4255" target="_blank"><i
+                class="fab fa-spotify">&nbsp;</i>Spotify</a>
+        <a class="link" href="https://itsmanueh.github.io/portfolio/404.html" target="_blank"><i
+                class="fa fa-book">&nbsp;</i>Portfolio - (En Construcción)</a>
+        <a class="link" href="https://www.twitch.tv/ItsManueh_" target="_blank"><i
+                class="fab fa-twitch">&nbsp;</i>Twitch</a>
+        <a class="link" href="https://discord.bio/p/itsmanueh" target="_blank"><i
+                class="fab fa-discord">&nbsp;</i>Info Discord</a>
+        <a class="link" href="https://github.com/ItsManueh" target="_blank"><i
+                class="fab fa-github">&nbsp;</i>Github</a>
+    </div>
 
-<script src="src/npm/typeit.min.js"></script>
-<script>
-    var totalStrings = ["Computer technician", "IT" , "Photo and video editor", "PreWeb Designer - Developer", "Freelance","Programmer & Dev on FiveM (GTAV Roleplay)"];
-    var typeIt = new TypeIt("#scroller", { speed: 75, loop: true, waitUntilVisible: true });
+    <div id="hashtag">
+        © 2021 itsmanueh.github.io by ItsManueh
+    </div>
 
-    totalStrings.forEach(function (str) {
-        typeIt.type(str);
-        typeIt.pause(1300);
-        typeIt.delete(str.length);
-    })
+</body>
 
-    typeIt.go();
-</script>
+</html>
