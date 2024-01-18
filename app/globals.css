@@ -5,5 +5,39 @@
 .bg-banner {
   background-size: cover;
   background-position: center;
-  background-image: url(https://wallpapercave.com/wp/wp8519839.jpg);
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 15 15 / var(--tw-bg-opacity));
+}
+
+.border-banner {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.text-banner {
+  --tw-text-opacity: 1;
+  color: rgb(240 240 240 / var(--tw-text-opacity));
+}
+
+.text-indigo-100 {
+  --tw-text-opacity: 1;
+  color: rgb(214 212 212 / var(--tw-text-opacity));
+}
+
+.text-indigo-500 {
+  --tw-text-opacity: 1;
+  color: rgb(240 240 240 / var(--tw-text-opacity));
+}
+
+.text-zinc-300 {
+  --tw-text-opacity: 1;
+  color: rgb(211 210 217 / var(--tw-text-opacity));
+}
+
+.text-zinc-400 {
+  --tw-text-opacity: 1;
+  color: rgb(214 212 212 / var(--tw-text-opacity));
 }
