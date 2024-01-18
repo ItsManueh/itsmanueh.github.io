@@ -12,7 +12,7 @@ const instagram = "https://www.instagram.com/itsmanueh/";
 const spotify = "https://open.spotify.com/user/facinglife";
 const github = "https://github.com/itsmanueh";
 const mail = "mailto:itsmanueh25@gmail.com";
-const discord = "https://discord.com/user/1127992874785591448";
+const discord = "https://discord.com/user/356409634229190659";
 const discordTag = "@itsmanueh";
 
 export const Badges = [
@@ -26,7 +26,11 @@ export const Badges = [
     },
     {
         emoji: "🎶",
-        label: "Music Lover",
+        label: "Music",
+    },
+    {
+        emoji: "🖤​",
+        label: "'Future' Techno DJ",
     },
     {
         emoji: "🕹️",
