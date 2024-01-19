@@ -17,6 +17,10 @@
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.rounded {
+  border-radius: 1.5rem;
+}
+
 .text-banner {
   --tw-text-opacity: 1;
   color: rgb(240 240 240 / var(--tw-text-opacity));
@@ -27,17 +31,17 @@
   color: rgb(214 212 212 / var(--tw-text-opacity));
 }
 
-.text-indigo-500 {
-  --tw-text-opacity: 1;
-  color: rgb(240 240 240 / var(--tw-text-opacity));
-}
-
 .text-zinc-300 {
   --tw-text-opacity: 1;
-  color: rgb(211 210 217 / var(--tw-text-opacity));
+  color: rgb(215 213 219 / var(--tw-text-opacity));
 }
 
 .text-zinc-400 {
   --tw-text-opacity: 1;
-  color: rgb(214 212 212 / var(--tw-text-opacity));
+  color: rgb(230 227 227 / var(--tw-text-opacity));
+}
+
+.text-indigo-500 {
+  --tw-text-opacity: 1;
+  color: rgb(240 240 240 / var(--tw-text-opacity));
 }

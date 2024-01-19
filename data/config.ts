@@ -25,12 +25,8 @@ export const Badges = [
         label: "Content Creator",
     },
     {
-        emoji: "🎶",
+        emoji: "🖤",
         label: "Music",
-    },
-    {
-        emoji: "🖤​",
-        label: "'Future' Techno DJ",
     },
     {
         emoji: "🕹️",

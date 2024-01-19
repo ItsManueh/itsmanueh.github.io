@@ -142,7 +142,7 @@ export default function Home() {
                           <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                             <a
                               href={config.portfolio}
-                              target="_blank"
+                              /* target="_blank" */
                               rel="noopener noreferrer nofollow"
                               className="w-full transition-all sm:hover:opacity-70"
                             >
@@ -219,7 +219,7 @@ export default function Home() {
                                         title="Buy me a coffee!"
                                         className="text-ellipsis text-[16px] text-zinc-400"
                                       >
-                                        Buy me a coffee
+                                        Buy Me A Coffee
                                       </span>
                                       <span
                                         title=""
