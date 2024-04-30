@@ -13,6 +13,16 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'i.scdn.co'
           },
+          {
+            protocol: 'https',
+            hostname: 'imgur.com',
+            port: '',
+            pathname: '/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'i.imgur.com'
+          },
         ],
       },
 }
