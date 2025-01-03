@@ -1,11 +1,11 @@
-const name = "Manuel Sempere";
+const name = "Manuel";
 const belowLink = "@itsmanueh"
 const bio = ""
 const portfolio = ""
 const buymeacoffee = "https://buymeacoffee.com/itsmanueh"
 
 // Change in next.config.js for more domain support.
-const avatar = "https://i.imgur.com/aQh4S8c.jpg";
+const avatar = "https://i.imgur.com/Yd6M3Cq.png";
 
 const twitter = "https://x.com/itsmanuehx";
 const instagram = "https://www.instagram.com/itsmanueh/";
